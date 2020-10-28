@@ -13,7 +13,7 @@ emoji = ["🌛", "🌜", "🙉", "🐼", "😎", "🤔", "🥺", "🤬", "🤠",
 while True:
     now = datetime.now()
     current_time = now.strftime("%H:%M:%S")
-    submission = reddit.submission(id="jiy1m6")
+    submission = reddit.submission(id="*****")
     score = submission.score
     ratio = submission.upvote_ratio
     upvotes = round((score * ratio) / (2*ratio - 1)
