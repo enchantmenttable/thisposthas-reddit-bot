@@ -43,5 +43,6 @@ while True:
         f"{choice(emoji)} {choice(emoji)} {choice(emoji)}\n\n"
         f"Current time: {current_time}\n\n"
         "Due to reddit API request rate limit, please wait 3s before refreshing the page.\n\n"
+        "The app is hosted on Heroku, which imposes hour limit per month on hosting time. If nothing changes after refreshing the page, we may have to wait until next month..."
     )
     submission.edit(content)
